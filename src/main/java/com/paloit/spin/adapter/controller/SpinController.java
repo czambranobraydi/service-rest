@@ -23,6 +23,7 @@ public class SpinController {
   @ResponseBody
   public String verifyOTP( @RequestBody OTPVerifyRequest otpVerifyRequest ) {
     return otpVerifyUseCase.verifyOTP(otpVerifyRequest);
+    
   }
 
 }
